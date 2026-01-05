@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body {
+    background-image:url("umama center.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-size: cover; 
+}
+.main-header {
+    background-color: rgb(0, 0, 0, .6);
+    background-blend-mode:multiply ;
+    background-image: url(umamaC.jpg);
+    background-size: cover;
+    padding-bottom: 30px;
+}.main-nav{
+    text-align: center;
+    font-size: larger;
+    border-bottom: rgb(255, 255, 255, .4);
+}
+.nav ul{
+    margin: 0;
+}
+.nav li{  
+     display: inline;
+}
+.nav a{
+    display: inline-block;
+    padding: 7px;
+    color:chocolate;
+    text-decoration: none;
+}
+.nav a:hover{
+    background-color:rgb(255, 255, 255, .6);
+}
+.heading{
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:chocolate ;
+    text-align: center;
+    text-decoration:dotted;
+}
+.heading1{
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:brown;
+    text-align: center;
+    text-decoration:dotted;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    flex-direction: column;
+    margin-top:-30px ;
+}
+.row{
+    display: flex;
+    gap:5px;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 2px;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 22%;
+    align-self: stretch;
+    margin-left: 18px;
+    flex-grow: 0;
+    
+}
+.card{
+    width: 280px;
+    min-height: 200px;
+    box-shadow: 0 4px 8px wheat;
+    background-color: gray;
+    border-radius: 10px;
+    margin-top: 18px;
+  margin-bottom: 15px;
+}
+.cardbody{
+    height: 90%;
+}
+.cardfooter{
+    height: 10%;
+}
+img{
+    margin: 10px 0 5px 5px;
+    width: 270px;
+    height: 250px;
+    display: block;
+    border-radius: 10px;
+    transition: trasnform 1s ease-in;
+}
+img:hover{
+    transform: scale(1.04);
+    transition: transform 1s ease-out;
+}
+.a{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:smaller;
+    color:white;
+    font-size: 1.rem;
+    display: block;
+    width: 280px;
+    margin: 0 auto;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+    text-decoration:dotted;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, rgb(27, 20, 1), #685731);
+    box-shadow: 0 3px 3px black;
+}
+.a1{
+     text-align: center;
+    color:rgb(19, 134, 211);
+    margin: 80px 20px;
+    font-size: medium;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.a1 :hover{
+    background-color:skyblue;
+    width: 300px;
+    border-radius: 20px;
+}
+h4{
+    margin: 15px 5px 5px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: chocolate;
+    font-size: large;
+    text-align: center;
+}
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:gray ;
+  color: black;
+  text-align: center;
+}
+.heading1{
+   font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    margin: 0;
+    font-size: medium;
+    text-align: center;
+    text-decoration:dotted;
+}
